@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+
+      <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Responsive portfolio website</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="https://www.linkedin.com/in/manpreet-kour-hack001/" class="nav__logo"
+            style="font-size:30px">MK<i class="fa fa-heart" style="font-size:30px;color:red"></i></a>
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li>
+                     <a href="#home" class="nav__link active-link">Home</a>
+                  </li>
+
+                  <li>
+                     <a href="#info" class="nav__link">About Me</a>
+                  </li>
+
+                  <li>
+                     <a href="#work" class="nav__link">My projects</a>
+                  </li>
+
+                  <li>
+                     <a href="#contact" class="nav__link">Contact Me</a>
+                  </li>
+
+               </ul>
+               <div class="nav__close" id="nav-close">
+                  <i class="ri-close-large-line"></i>
+               </div>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-menu-line"></i>
+            </div>
+         </nav>
+      </header>
+      
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section" id="home">
+               <div class="home__container container grid">
+                  <img src="assets/img/image.png "alt="my-picture" class="home__img">
+                  <div class="home__data">
+                     <h1 class="home__name">Manpreet <br> Kour</h1>
+                     <h3 class="home__pro">Web Developer</h3>
+                  </div>
+
+                  <a href="#work" class="home__scroll">
+                     <div class="home__scroll-box">
+                        <i class="ri-arrow-down-line"></i>
+                     </div>
+                     <span class="home__scroll-text">Recent works</span>
+                  </a>
+               </div>
+         </section>
+
+         <!--==================== WORKS ====================-->
+         <section class="work section" id="work">
+            <h2 class="section__title">My projects</h2>
+            <div class="work__container container grid">
+               <article class="work__card">
+                  <a href="https://github.com/Manpreet-kour/lane_detection" target="_blank" class="work__link">
+                     <h2 class="work__title">Lane detection</h2>
+                     <p class="work__description">
+                        This project utilizes OpenCV for real-time car and lane detection in video streams. By integrating Haar cascades for car detection with Canny edge detection and Hough transform for lane detection, it ensures accurate and robust processing in real-time scenarios.
+                     </p>
+
+                     <img src="assets/img/work-1.jpeg" alt="image" class="work__img">
+                     <i class="ri-arrow-right-line"></i>
+                  </a>
+               </article>
+
+               <article class="work__card">
+                  <a href="https://keeperx.netlify.app/" target="_blank" class="work__link">
+                     <h2 class="work__title">Keeper App</h2>
+                     <p class="work__description">
+                        Keeper App is a note-taking application built with React, allowing users to create, view, and delete notes with titles. Designed for simplicity and efficiency, it helps users manage important information quickly, offering a user-friendly and intuitive interface.
+                     </p>
+
+                     <img src="assets/img/work-2.jpeg" alt="image" class="work__img">
+                     <i class="ri-arrow-right-line"></i>
+                  </a>
+               </article>
+
+               <article class="work__card">
+                  <a href="https://ejsproject.onrender.com/" target="_blank" class="work__link">
+                     <h2 class="work__title">Innovate Xpert</h2>
+                     <p class="work__description">
+                        "Innovate Expert" is a multi-paged website offering insights on machine learning (ML), artificial intelligence (AI), and generative AI. Developed using HTML and CSS, it’s hosted with Node.js and Express.js, and features EJS templating for dynamic content.
+                     </p>
+
+                     <img src="assets/img/work-3.jpeg" alt="image" class="work__img">
+                     <i class="ri-arrow-right-line"></i>
+                  </a>
+               </article>
+
+               <article class="work__card">
+                  <a href="https://github.com/Manpreet-kour/book_recommender_system" target="_blank" class="work__link">
+                     <h2 class="work__title">Book Recommender Application</h2>
+                     <p class="work__description">
+                        This hybrid book recommender system combines popularity-based and collaborative filtering techniques to suggest books. Utilizing NumPy, pandas, and scikit-learn's cosine similarity, it delivers personalized recommendations based on user input.
+                     </p>
+
+                     <img src="assets/img/work-4.jpeg" alt="image" class="work__img">
+                     <i class="ri-arrow-right-line"></i>
+                  </a>
+               </article>
+
+               <article class="work__card">
+                  <a href="https://github.com/Manpreet-kour/SMS_Classifier" target="_blank" class="work__link">
+                     <h2 class="work__title">Spam classifier</h2>
+                     <p class="work__description">
+                        This project involves developing a spam classifier using a dataset of spam messages. By employing various machine learning models, it effectively distinguishes between spam and non-spam messages, with performance evaluated through accuracy and precision, and visualized using plots.
+                     </p>
+
+                     <img src="assets/img/work-5.jpeg" alt="image" class="work__img">
+                     <i class="ri-arrow-right-line"></i>
+                  </a>
+               </article>
+               <article class="work__card">
+                  <a href="https://github.com/Manpreet-kour/Face_recognition" target="_blank" class="work__link">
+                     <h2 class="work__title">Face-Recognition</h2>
+                     <p class="work__description">
+                        Face Recognition Algorithm This project implements a face recognition algorithm using YOLOv8 for face detection and OpenCV for video processing. The code reads a video file, detects faces in each frame using the YOLO model, and displays the video with bounding boxes around detected faces.
+                     </p>
+
+                     <img src="assets/img/work-6.jpeg" alt="image" class="work__img">
+                     <i class="ri-arrow-right-line"></i>
+                  </a>
+               </article>
+            </div>
+
+         </section>
+
+         <!--==================== INFO ====================-->
+         <section class="info section" id="info">
+            <h2 class="section__title">MY INFO</h2>
+            <div class="info__container container grid">
+               <div class="about grid">
+                  <div class="about__content">
+                     <h3 class="info__title">
+                        About Me
+                     </h3>
+                     <p class="about__description">A dedicated <b>tech enthusiast</b>with expertise in <b>machine learning</b>and a strong passion for <b>web development</b>. Developed Various projects in both the domains.</p>
+                        <a href="assets/pdf/Manpreet Resume Final.pdf" download=""target="_blank" class="button about__button">Download CV</a>
+                  </div>
+                  <img src="assets/img/img2.png" alt="image" class="about__img">
+               </div>
+               <div class="experience">
+                  <h3 class="info__title">My Work Experience</h3>
+                  <div class="experience__content grid">
+                     <div class="experience__data grid">
+                        <h2 class="experience__company"> Artificial Intelligence and Machine Learning Society, DTU</h2>
+                        <div>
+                           <h3 class="experience__profession">Research Intern</h3>
+                           <span class="experience__date">Jun 2024 - July 2024</span>
+                           <p class="experience__description">Studied seafloor habitat mapping using deep learning and hyperspectral imagery. Achieved approximately 92% accuracy with Mask R-CNN, and further improved results with the integration of Panoptic FPN for enhanced substrate segmentation and species analysis.</p>
+                     </div>
+                     </div>
+
+                     <div class="experience__data grid">
+                        <h2 class="experience__company">Software Engineering Department, DTU </h2>
+                        <div>
+                           <h3 class="experience__profession">USIP Intern</h3>
+                           <span class="experience__date">Sep 2023 - Nov 2023</span>
+                           <p class="experience__description">Coordinated project management and confidential data handling, ensuring timely milestone completion in collaboration with the Head of Department. Streamlined workflows, showcasing precision and dedication to data security.</p>
+                     </div>
+                     </div>
+                  </div>
+
+               </div>
+               <div class="skills"></div>
+               <h3 class="info__title">Skills</h3>
+               <div class="skills__content grid">
+                  <div class="skills__box">
+                     <img src="assets/img/info-html.svg" alt="" class="skills__img">
+                     <span class="skills__name">HTML</span>
+                  </div>
+                  <div class="skills__box">
+                     <img src="assets/img/info-css.svg" alt="" class="skills__img">
+                     <span class="skills__name">CSS</span>
+                  </div>
+                  <div class="skills__box">
+                     <img src="assets/img/info-javascript.svg" alt="" class="skills__img">
+                     <span class="skills__name">JavaScript</span>
+                  </div>
+                  <div class="skills__box">
+                     <img src="assets/img/info-react.svg" alt="" class="skills__img">
+                     <span class="skills__name">React</span>
+                  </div>
+                  <div class="skills__box">
+                     <img src="assets/img/info-git.svg" alt="" class="skills__img">
+                     <span class="skills__name">Git</span>
+                  </div>
+                  <div class="skills__box">
+                     <img src="assets/img/info-github.svg" alt="" class="skills__img">
+                     <span class="skills__name">GitHub</span>
+                  </div>
+                  <div class="skills__box">
+                     <img src="assets/img/machine-learning_2172891.png" alt="" class="skills__img">
+                     <span class="skills__name">Machine Learning</span>
+                  </div>
+                  <div class="skills__box">
+                     <img src="assets/img/c-.png" alt="" class="skills__img">
+                     <span class="skills__name">C++</span>
+                  </div>
+                  <div class="skills__box">
+                     <img src="assets/img/hierarchical-structure.png" alt="" class="skills__img">
+                     <span class="skills__name">DSA</span>
+                  </div>
+                  <div class="skills__box">
+                     <img src="assets/img/opencv-ar21.svg" alt="" class="skills__img">
+                     <span class="skills__name">OpenCV</span>
+                  </div>
+               </div>
+            </div>
+
+         </section>
+
+         <!--==================== SERVICES ====================-->
+         <section class="services section" id="services">
+            <h2 class="section__title">Achievements</h2>
+               <div class="services__container container grid">
+                  <article class="services__card">
+                     <h3 class="services__title">Myntra HackerRamp Winner
+                     </h3>
+                     <p class="services__description">Won the first phase of Myntra Hackerramp We for She, competing among 30,000 students.</p>
+                  </article>
+
+                  <article class="services__card">
+                     <h3
+                     class="services__title">SIH </h3>
+                     </h3>
+                     <p class="services__description">Selected to represent DTU at the Smart India Hackathon 2023</p>
+                  </article>
+
+                  <article class="services__card">
+                     <h3 class="services__title">Scholarship
+                     </h3>
+                     <p class="services__description">Awarded a full scholarship for B.Tech by the Government of India under the PMSSS scheme.</p>
+                  </article>
+
+                  <article class="services__card">
+                     <h3 class="services__title">Topper
+                     </h3>
+                     <p class="services__description">Achieved state topper status in the Jammu and Kashmir Board for 12th grade with a 99.6% score.</p>
+                  </article>
+               </div>
+         </section>
+
+         <!--==================== CONTACT ====================-->
+         <section class="contact section" id="contact">
+            <h2 class="section__title">CONTACT ME</h2>
+            <div class="contact__container container grid">
+               <form action="" class="contact__form grid" id="contact-form">
+                  <div class="contact__group grid">
+                     <input type="text" name="user_name" placeholder="Names" required  class="contact__input">
+                     <input type="email" name="user_email" placeholder="Email" required  class="contact__input">
+                  </div>
+                     <textarea name="user_message" placeholder="Message" required class="contact__input contact__area"></textarea>
+                 
+                     <button class="button contact__button">Send Message</button>
+
+                     <p class="contact__message" id="contact-message"></p>
+               </form>
+<div class="contact__social grid">
+   <a href="http://github.com/Manpreet-kour" target="_blank" class="contact__social-link">
+      <i class="fa fa-github"></i>
+     
+   </a>
+   <a href="https://www.linkedin.com/in/manpreet-kour-hack001/" target="_blank" class="contact__social-link">
+      <i class="fa fa-linkedin-square"></i>
+     
+
+   </a>
+   <a href="https://www.instagram.com/manpreetk6700/" target="_blank" class="contact__social-link">
+      <i class="fa fa-instagram"></i>
+      
+
+   </a>
+</div>
+
+            </div>
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer__container container grid">
+            <ul class="footer__link">
+               <li>
+                  <a href="#home" class="footer__link">Home</a>
+               </li>
+
+               <li>
+                  <a href="#work" class="footer__link">Projects </a>
+               </li>
+
+               <li>
+                  <a href="#info" class="footer__link">Info</a>
+               </li>
+            </ul>
+
+            <span class="footer__copy">
+               &#169; All Rights Reserved By Manpreet kour
+            </span>
+         </div>
+
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-line"></i>
+      </a>
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="assets/js/scrollreveal.min.js"></script>
+
+      <!--=============== EMAIL JS ===============-->
+      <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
